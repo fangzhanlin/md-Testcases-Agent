@@ -1,6 +1,8 @@
 *.csv
 *.json
 issues/*
+all_md/
+test_md/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
