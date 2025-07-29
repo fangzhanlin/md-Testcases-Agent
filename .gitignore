@@ -3,6 +3,7 @@
 issues/*
 all_md/
 test_md/
+bak/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
