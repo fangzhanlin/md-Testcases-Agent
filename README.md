@@ -1,6 +1,6 @@
-# Issues整理
+# 基于产品文档生成测试用例文档
 
-为大型热门项目总结issues内容、归类所属功能模块、构建测试用例等。
+能够基于GitHub仓库产品文档生成测试用例内容。
 
 ## 🛠️ 安装要求
 
@@ -18,17 +18,17 @@ uv venv .venv
 uv sync
 ```
 
-## 基本用法, 获取指定issues
+## 针对文件夹生成测试用例
 ```bash
-uv run .\get_issues.py
+uv run .\testcases_generation.py
 ```
 
-## json转换为csv (适应表格显示)
+## csv汇总为xlsx
 ```bash
-uv run .\issues_jsontocsv.py
+uv run .\csv2xlsx.py
 ```
 
-## 并行生成
+## xlsx格式生成
 ```bash
-uv run workflow.py
+uv run xlsx_formatting.py
 ```
